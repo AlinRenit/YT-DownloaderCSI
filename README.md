@@ -38,7 +38,7 @@ A modern desktop application that allows you to download YouTube videos using yt
 1️⃣ Ensure you have [**Python 3.9 or higher**](https://www.python.org/downloads/) installed (Python 3.8 is deprecated).
 2️⃣ Download the [ytdownloader.py](ytdownloader.py) and [requirements.txt](requirements.txt) file:
 3️⃣ Install the required dependencies:
-> ### NOTE:- Use the following command on the terminal (this will install the package dependencies automatically).
+> NOTE:- Use the following command on the terminal (this will install the package dependencies automatically).
 ```bash
 pip install -r requirements.txt
 ```
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 1️⃣ Run the application:
-> Use the following command to run the application.
+> Use the following command on the terminal to run the application.
 ```bash
 python youtube_downloader.py
 ```
