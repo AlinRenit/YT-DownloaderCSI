@@ -79,7 +79,7 @@ python youtube_downloader.py
 
 ## 🔔 Note
 
-📌 This application is doesn't support or encourage piracy of any means.
+📌 This application doesn't support or encourage piracy of any means.\
 📌 Please ensure you have **permission** to download any content before using this tool.
 
 ---
