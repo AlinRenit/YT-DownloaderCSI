@@ -3,6 +3,8 @@
 A modern desktop application that allows you to download YouTube videos using yt-dlp with a professional GUI interface.
 
 ---
+![image](https://github.com/user-attachments/assets/4e880a42-1433-4e04-8ef1-da3a627476fb)
+---
 
 ## ✨ Features
 
@@ -84,7 +86,7 @@ python youtube_downloader.py
 
 ## 🔔 Note
 
-📌 This application is developed by **CSI-VIT** and downloads videos in your chosen quality.\
+📌 This application is doesn't support or encourage piracy of any means.
 📌 Please ensure you have **permission** to download any content before using this tool.
 
 ---
