@@ -1,6 +1,8 @@
 # 🎬 CSI-VIT YouTube Video Downloader
 
-A modern desktop application that allows you to download YouTube videos using yt-dlp with a professional GUI interface.
+A modern desktop application that allows you to download YouTube videos using yt-dlp with a GUI interface. This application that lets you download videos from YouTube. You can copy-paste URL of any video and download it directly to a format of your choice.
+
+> Note: This application uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) under the hood to interact with YouTube. You can check this repository to learn more.
 
 ---
 ![image](https://github.com/user-attachments/assets/4e880a42-1433-4e04-8ef1-da3a627476fb)
@@ -33,22 +35,14 @@ A modern desktop application that allows you to download YouTube videos using yt
 
 ## 🛠️ Installation
 
-1️⃣ Ensure you have **Python 3.9 or higher** installed (Python 3.8 is deprecated).\
-2️⃣ Clone this repository:
-
-```bash
-git clone [repository-url]
-cd ytdldownloader
-```
-
+1️⃣ Ensure you have [**Python 3.9 or higher**](https://www.python.org/downloads/) installed (Python 3.8 is deprecated).
+2️⃣ Download the [ytdownloader.py](ytdownloader.py) and [requirements.txt](requirements.txt) file:
 3️⃣ Install the required dependencies:
-
+> ### NOTE:- The following command will automatically install the package dependencies.
 ```bash
 pip install -r requirements.txt
 ```
-
-4️⃣ *(OPTIONAL - If your video downloads without audio, follow these steps to install ffmpeg)*:
-
+4️⃣ **OPTIONAL** - If your video downloads without audio, follow these steps to install ffmpeg manually:
 - 📁 Create a folder named **'ffmpeg'** in the application directory.
 - 📥 Download **ffmpeg** from [this link](https://www.gyan.dev/ffmpeg/builds/).
 - 🗂️ Extract and place `ffmpeg.exe` in the **'ffmpeg'** folder.
@@ -58,11 +52,10 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 1️⃣ Run the application:
-
+> Use the following command to run the application.
 ```bash
 python youtube_downloader.py
 ```
-
 2️⃣ Enter a **YouTube URL** in the input field.\
 3️⃣ The **video information** will be automatically loaded.\
 4️⃣ Click **"Select Folder"** to choose where you want to save the video.\
