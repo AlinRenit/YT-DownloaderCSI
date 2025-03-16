@@ -37,12 +37,12 @@ A modern desktop application that allows you to download YouTube videos using yt
 
 1️⃣ Ensure you have [**Python 3.9 or higher**](https://www.python.org/downloads/) installed (Python 3.8 is deprecated).\
 2️⃣ Download the [ytdownloader.py](ytdownloader.py) and [requirements.txt](requirements.txt) file:\
-3️⃣ Install the required dependencies:\
+3️⃣ Install the required dependencies:
 > Use the following command on the terminal to install the package dependencies automatically.
 ```bash
 pip install -r requirements.txt
 ```
-4️⃣ **OPTIONAL** - If your video downloads without audio, follow these steps to install ffmpeg manually:\
+4️⃣ **OPTIONAL** - If your video downloads without audio, follow these steps to install ffmpeg manually:
 - 📁 Create a folder named **'ffmpeg'** in the application directory.
 - 📥 Download **ffmpeg** from [this link](https://www.gyan.dev/ffmpeg/builds/).
 - 🗂️ Extract and place `ffmpeg.exe` in the **'ffmpeg'** folder.
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-1️⃣ Run the application:\
+1️⃣ Run the application:
 > Use the following command on the terminal to run the application.
 ```bash
 python youtube_downloader.py
